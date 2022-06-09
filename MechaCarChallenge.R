@@ -21,4 +21,6 @@ summary(lm(mpg ~ AWD,MechaCar))
 Suspension_Coil <- read.csv(file='Suspension_Coil.csv')
 total_summary <- Suspension_Coil %>% summarize(Mean=mean(PSI),Median=median(PSI),Variance=var(PSI),SD=sd(PSI))
 lot_summary <- Suspension_Coil %>% group_by(Manufacturing_Lot) %>% summarize(Mean=mean(PSI),Median=median(PSI),Variance=var(PSI),SD=sd(PSI))
-                                               
+
+#Deliverable 3
+t.test(log10(Suspension_Coil$PSI),mu=1500)
