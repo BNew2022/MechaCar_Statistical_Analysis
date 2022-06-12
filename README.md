@@ -35,6 +35,7 @@ In order to quantify a statistical  study into how the MechaCar performs vs. the
  - Safety
  - Fuel Efficiency
  - Horsepower
+
 We will test the above metrics by gathering data on our 5 closest competitors to find what metric is most important to consumers based on sales volume.  Our hypothesis would be that the three metrics noted above would have the greatest impact on how the MechaCar would perform against its competitors, and out Null Hypothesis would be that the three factors have no bearing on our hypothesis.
 
 To test this theory, we would use a T-test and look for a P-value greater than .05 to confirm our hypothesis.  We would compare horsepower ratings, safety test results and fuel efficiency numbers to run our tests.  Luckily, this information is widely available on manufacturer websites, EPA websites and NHTSA websites.
